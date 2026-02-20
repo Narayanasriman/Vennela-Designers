@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-beige: #F5E6E0;
+  --color-gold: #C8A951;
+  --color-darkBrown: #3E2C23;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}
+/* Hide scrollbar but allow scrolling */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+html, body {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
