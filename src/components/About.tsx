@@ -3,7 +3,7 @@ import aboutImage from "../assets/aboutImage.png";
 
 export default function About() {
   return (
-    <section className="py-20">
+    <section className="py-20 scroll-mt-12" id='about'>
       <div className="container mx-auto px-20 grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE TEXT */}

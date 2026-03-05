@@ -16,7 +16,7 @@ export default function Gallery() {
         gallery6,
     ]
   return (
-    <section className="py-24">
+    <section className="py-24" id="gallery">
       <div className="container mx-auto px-20">
 
         {/* Section Title */}
